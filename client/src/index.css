@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;500&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  font-family: "Montserrat", sans-serif !important;
+}
+
+input,
+textarea {
+  border: 1px solid #ccc;
+  padding-left: 20px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+input:focus,
+textarea:focus {
+  border: 1px solid rgb(40, 40, 40);
+  outline: none;
+}
+
+.primary-contained-btn {
+  background-color: #395144;
+  height: 40px;
+  padding: 0 20px;
+  color: white;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(222, 221, 221);
+}
